@@ -94,7 +94,7 @@ class App extends React.Component {
             <Router>
                 <Navbar />
                 <Switch>
-                    <Route exact path="/">
+                    <Route exact path="/h">
                         <Imgslider />
                         <Cards info={this.state.data} />
                     </Route>
